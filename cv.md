@@ -1,34 +1,28 @@
 # ***Elizaveta Barbotina***
 ## ***Contacts***
-***
 * GitHub: [SchrodingerCatBox](https://github.com/SchrodingerCatBox)
 * Discord: [Bifros#5829](https://discordapp.com/users/192955357843161098 "Bifros")
 * E-mail: [bifroswtf@gmail.com](bifroswtf@gmail.com)
-***
 ## ***About Me***
-> Being an enthusiastic but inconsistent person, she knew many useless but interesting things.
-***
+«Being an enthusiastic but inconsistent person, she knew many useless but interesting things.»
 ## ***Skills***
 * HTML
 * Markdown
 * Adobe Photoshop, PaintTool SAI, Adobe Premiere
 * Git, GitHub
 * VSCode
-***
 ## ***Code Example***
 ```
 function multiply(a, b){
 return a * b
 }
 ```
-***
 ## ***Sources Of Study***
 * RSSchool
 * YouTube
 * GitHub Gist
 * Clean Code by Robert Cecil Martin and other books
 * Google
-***
 ## ***Languages***
 * **Russian** - Native
 * **English** - Between B1 and B2
