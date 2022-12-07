@@ -1,2 +1,2 @@
 # rsschool-cv
-CV task
+https://SchrodingerCatBox.github.io/rsschool-cv/cv
