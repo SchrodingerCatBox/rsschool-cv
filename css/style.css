@@ -2,7 +2,8 @@
     font-family: cursive;
     font-size: 16px;
     margin: 0 auto;
-    background-color: #262626;
+    background: rgb(32,32,32);
+    background: linear-gradient(126deg, rgba(32,32,32,1) 41%, rgba(88,21,21,1) 100%);
     color: #a31e1e;
 }
 ul, ol {
@@ -20,7 +21,6 @@ ul, ol {
         outline: none;
         text-decoration: none;
     }
-    
     a:link {
         color: #a31e1e;    
     }
@@ -64,7 +64,8 @@ ul, ol {
     border-radius: 200px/150px;
 }
 .footer {
-    background-color: #4d4d4d;
+    background: rgb(60,60,60);
+    background: linear-gradient(90deg, rgba(60,60,60,1) 45%, rgba(142,142,142,1) 100%);
     color: #000000;
     display: flex;
     flex-direction: row;
