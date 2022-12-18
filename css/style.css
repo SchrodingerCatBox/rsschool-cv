@@ -16,6 +16,7 @@ ul, ol {
 }
 .htext {
     color: #4e4e4e;
+    text-decoration: underline;
 }
     a {
         outline: none;
