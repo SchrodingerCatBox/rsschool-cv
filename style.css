@@ -30,6 +30,18 @@ a:hover {
   color: #568bff;
 }
 
+h1 {
+  margin: 5px 0;
+}
+
+h2 {
+  margin: 5px 0;
+}
+
+p {
+  margin: 0;
+}
+
 .navigation {
   display : block;
   text-transform: uppercase;
@@ -59,11 +71,16 @@ a:hover {
 .main__left_side {
   display: flex;
   flex-direction: column;
+  margin: 20px;
+  gap: 15px;
 }
 
 .main__right_side {
+  width: 25%;
   display: flex;
   flex-direction: column;
+  margin: 20px;
+  gap: 15px;
 }
 
 .profile__photo {
@@ -90,4 +107,38 @@ a:hover {
   background-color: white;
   padding: 2px;
   border: 2px solid black;
+}
+
+.skills__icons {
+  position: relative;
+  width: 45px;
+  padding: 2px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.skills__progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skills__progress_bar {
+  flex: 1;
+  height: 40px;
+  background-color: #ffffff1f;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.skills__progress_fill {
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(9, 48, 121), rgba(60, 122, 255, 0.719));
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  color: rgb(255, 255, 255);
 }
