@@ -1,8 +1,56 @@
-html {
-    height: 100%;
-}
-
 body {
     height: 100%;
-    background: linear-gradient(90deg, rgb(44, 44, 44) 50%, rgb(36, 48, 65) 50%);
+    background-color: rgb(44, 44, 44);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link {
+  color: #2766ec;
+}
+
+a:visited {
+  color: #2766ec;
+}
+
+a:hover {
+  color: #568bff;
+}
+
+.font_oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigation {
+  display : block;
+  text-transform: uppercase;
+}
+
+.navigation_background {
+  width: 45%;
+  background: rgba(19, 58, 136, 0.5);
+  padding: 5px 60px;
+  margin: 0 auto;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px 30px;
+}
+
+.main__left_side {
+
 }
