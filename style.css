@@ -1,6 +1,12 @@
 body {
     height: 100%;
     background-color: rgb(44, 44, 44);
+    color: #2766ec;
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 ul, ol {
@@ -24,13 +30,6 @@ a:hover {
   color: #568bff;
 }
 
-.font_oswald {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .navigation {
   display : block;
   text-transform: uppercase;
@@ -38,7 +37,7 @@ a:hover {
 
 .navigation_background {
   width: 45%;
-  background: rgba(19, 58, 136, 0.5);
+  background: rgba(19, 51, 114, 0.5);
   padding: 5px 60px;
   margin: 0 auto;
   clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
@@ -51,6 +50,44 @@ a:hover {
   gap: 20px 30px;
 }
 
-.main__left_side {
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 
+.main__left_side {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__right_side {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__photo {
+  position: relative;
+  width: 200px;
+  border-radius: 200px;
+  border: 2px solid white;
+}
+
+.contacts {
+
+}
+
+.contacts__info {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.contacts__icons {
+  position: relative;
+  width: 25px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 2px;
+  border: 2px solid black;
 }
