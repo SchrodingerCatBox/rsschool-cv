@@ -91,7 +91,6 @@ code {
   padding: 50px;
   clip-path: polygon(0% 1%,93% 0%,100% 100%,6% 100%);
 }
-
 .main__left_side {
   display: flex;
   flex-direction: column;
