@@ -14,20 +14,20 @@
 <body>
   <header>
     <nav class="navigation navigation_background">
-            <ul class="navigation__list">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#code">Code Example</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#study">Sources Of Study</a></li>
-            <li><a href="#languages">Languages</a></li>
-        </ul>
+      <ul class="navigation__list">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code">Code Example</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#study">Sources Of Study</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
     </nav>
   </header>
   <main class="main">
     <div class="main__left_side main__left_background">
-      <section>
+      <section class="profile">
           <img class="profile__photo" src="./img/avatar.jpg" alt="cat picture">
           <h1>Elizabeth Barbotina</h1>
           <p>Junior Frontend Developer</p>
@@ -38,15 +38,19 @@
       </section>
       <section class="contacts" id="contacts">
           <h2>Contacts</h2>
-            <div class="contacts__info"><img class="contacts__icons" src="./img/contacts_github.png" alt="github"><a href="https://github.com/SchrodingerCatBox" target="_blank">: SchrodingerCatBox</a></div>
-            <div class="contacts__info"><img class="contacts__icons" src="./img/contacts_discord.png" alt="discord"><a href="https://discordapp.com/users/192955357843161098" target="_blank">: Bifros</a></div>
-            <div class="contacts__info"><img class="contacts__icons" src="./img/contacts_email.png" alt="email"><a href="bifroswtf@gmail.com" target="_blank">: bifroswtf@gmail.com</a></div>
+          <ul>
+            <li><div class="contacts__info"><img class="contacts__icons" src="./img/contacts_github.png" alt="github"><a href="https://github.com/SchrodingerCatBox" target="_blank">: SchrodingerCatBox</a></div></li>
+            <li><div class="contacts__info"><img class="contacts__icons" src="./img/contacts_discord.png" alt="discord"><a href="https://discordapp.com/users/192955357843161098" target="_blank">: Bifros</a></div></li>
+            <li><div class="contacts__info"><img class="contacts__icons" src="./img/contacts_email.png" alt="email"><a href="bifroswtf@gmail.com" target="_blank">: bifroswtf@gmail.com</a></div></li>
+          </ul>
       </section>
       <section id="languages">
           <h2>Languages</h2>
+          <ul>
             <li>Russian &#8212; Native</li>
             <li>English &#8212; B2</li>
             <li>Japanese &#8212; Self-learning ongoing</li>
+          </ul>
       </section>
     </div>
     <div class="main__right_side main__right_background">
@@ -62,11 +66,13 @@
       </section>
       <section id="study">
         <h2>Sources of Study</h2>
-          <li>RSSchool</li>
-          <li>YouTube</li>
-          <li>GitHub Gist</li>
-          <li>Clean Code by Robert Cecil Martin and other books</li>
-          <li>Google</li>
+          <ul>
+            <li>RSSchool</li>
+            <li>YouTube</li>
+            <li>GitHub Gist</li>
+            <li>Clean Code by Robert Cecil Martin and other books</li>
+            <li>Google</li>
+          </ul>
       </section>
       <section class="skills" id="skills">
           <h2>Skills</h2>
@@ -126,6 +132,36 @@
                 </div>
               </div>
             </div>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="projects">
+          <div>
+            <a href="https://schrodingercatbox.github.io/rsschool-cv/" target="_blank">
+            <img src="./img/project_cv.png" alt="cv project" class="projects__image">
+            </a>
+          </div>
+          <div>
+            <a href="https://rolling-scopes-school.github.io/schrodingercatbox-JSFE2024Q4/christmas-shop/index.html" target="_blank">
+            <img src="./img/project_christmas-shop.png" alt="christmas shop project" class="projects__image">
+            </a>
+          </div>
+          <div>
+            <a href="https://rolling-scopes-school.github.io/schrodingercatbox-JSFE2023Q4/coffee-house/index.html" target="_blank">
+            <img src="./img/project_coffee-house.png" alt="coffee house project" class="projects__image">
+            </a>
+          </div>
+          <div>
+            <a href="https://rolling-scopes-school.github.io/schrodingercatbox-JSFEPRESCHOOL2024Q2/shelter/index.html" target="_blank">
+            <img src="./img/project_shelter.png" alt="shelter project" class="projects__image">
+            </a>
+          </div>
+          <div>
+            <a href="https://schrodingercatbox.github.io/vampire-survivors-evolutions/" target="_blank">
+            <img src="./img/project_vampire-survivors.png" alt="vampire survivors project" class="projects__image">
+            </a>
+          </div>
+          </div>
         </section>
     </div>
   </main>

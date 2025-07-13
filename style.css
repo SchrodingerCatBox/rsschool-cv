@@ -18,12 +18,12 @@ li {
 }
 
 ul, ol {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    outline: none;
-    text-decoration: none;
+  outline: none;
+  text-decoration: none;
 }
 
 a:link {
@@ -108,6 +108,12 @@ code {
   gap: 15px;
 }
 
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .profile__photo {
   position: relative;
   width: 200px;
@@ -115,8 +121,9 @@ code {
   border: 2px solid white;
 }
 
-.contacts {
-
+.contacts li, ul {
+  list-style: none;
+  padding: 0;
 }
 
 .contacts__info {
@@ -180,6 +187,7 @@ code {
   flex-direction: row;
   padding: 0 25px 25px;
   align-items: center;
+  color: #000000;
 }
 
 .footer__rsschoollogo {
@@ -188,4 +196,18 @@ code {
 
 .footer__githublogo {
   width: 45px;
+}
+
+.projects {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.projects__image {
+  max-width: 150px;
+  border-radius: 10px;
+  border: 4px solid rgb(140, 81, 207);
 }
