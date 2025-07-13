@@ -3,8 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="author" content="SchrodingerCatBox">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./img/cv.png">
+  <title>Curriculum Vitae</title>
 </head>
 <body>
+  <header>
+    <nav class="navigation navigation_background">
+      <ul class="navigation__list">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code">Code Example</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#study">Sources Of Study</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="main__left_side main__left_background">
+      <section class="profile">
+          <img class="profile__photo" src="./img/avatar.jpg" alt="cat picture">
+          <h1>Elizabeth Barbotina</h1>
+          <p>Junior Frontend Developer</p>
+      </section>
+      <section>
+          <h2>About Me</h2>
+          <p>«Being an enthusiastic but inconsistent person, she knew many useless but interesting things.»</p>
+      </section>
+      <section class="contacts" id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li><div class="contacts__info"><img class="contacts__icons" src="./img/contacts_github.png" alt="github"><a href="https://github.com/SchrodingerCatBox" target="_blank">: SchrodingerCatBox</a></div></li>
+            <li><div class="contacts__info"><img class="contacts__icons" src="./img/contacts_discord.png" alt="discord"><a href="https://discordapp.com/users/192955357843161098" target="_blank">: Bifros</a></div></li>
+            <li><div class="contacts__info"><img class="contacts__icons" src="./img/contacts_email.png" alt="email"><a href="bifroswtf@gmail.com" target="_blank">: bifroswtf@gmail.com</a></div></li>
+          </ul>
+      </section>
+      <section id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>Russian &#8212; Native</li>
+            <li>English &#8212; B2</li>
+            <li>Japanese &#8212; Self-learning ongoing</li>
+          </ul>
+      </section>
+    </div>
+    <div class="main__right_side main__right_background">
+      <section id="code">
+        <h2>Code examples</h2>
+        <pre>
+            <code>
+            function multiply(a, b){
+            return a * b
+            }
+            </code>
+        </pre>
+      </section>
+      <section id="study">
+        <h2>Sources of Study</h2>
+          <ul>
+            <li>RSSchool</li>
+            <li>YouTube</li>
+            <li>GitHub Gist</li>
+            <li>Clean Code by Robert Cecil Martin and other books</li>
+            <li>Google</li>
+          </ul>
+      </section>
+      <section class="skills" id="skills">
+          <h2>Skills</h2>
+            <div class="skills__progress">
+              <img class="skills__icons" src="./img/html.png" alt="html">
+              <div class="skills__progress_bar">
+                <div class="skills__progress_fill" style="width: 65%;">
+                  <p>65%</p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__progress">
+              <img class="skills__icons" src="./img/markdown.png" alt="markdown">
+              <div class="skills__progress_bar">
+                <div class="skills__progress_fill" style="width: 90%;">
+                  <p>90%</p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__progress">
+              <img class="skills__icons" src="./img/JS.png" alt="java script">
+              <div class="skills__progress_bar">
+                <div class="skills__progress_fill" style="width: 37%;">
+                  <p>37%</p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__progress">
+              <img class="skills__icons" src="./img/angular.png" alt="angular">
+              <div class="skills__progress_bar">
+                <div class="skills__progress_fill" style="width: 15%;">
+                  <p>15%</p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__progress">
+              <img class="skills__icons" src="./img/photoshop.png" alt="adobe photoshop">
+              <div class="skills__progress_bar">
+                <div class="skills__progress_fill" style="width: 95%;">
+                  <p>95%</p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__progress">
+              <img class="skills__icons" src="./img/git.png" alt="git">
+              <div class="skills__progress_bar">
+                <div class="skills__progress_fill" style="width: 65%;">
+                  <p>65%</p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__progress">
+              <img class="skills__icons" src="./img/css.png" alt="css">
+              <div class="skills__progress_bar">
+                <div class="skills__progress_fill" style="width: 70%;">
+                  <p>70%</p>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="projects">
+          <div>
+            <a href="https://schrodingercatbox.github.io/rsschool-cv/" target="_blank">
+            <img src="./img/project_cv.png" alt="cv project" class="projects__image">
+            </a>
+          </div>
+          <div>
+            <a href="https://rolling-scopes-school.github.io/schrodingercatbox-JSFE2024Q4/christmas-shop/index.html" target="_blank">
+            <img src="./img/project_christmas-shop.png" alt="christmas shop project" class="projects__image">
+            </a>
+          </div>
+          <div>
+            <a href="https://rolling-scopes-school.github.io/schrodingercatbox-JSFE2023Q4/coffee-house/index.html" target="_blank">
+            <img src="./img/project_coffee-house.png" alt="coffee house project" class="projects__image">
+            </a>
+          </div>
+          <div>
+            <a href="https://rolling-scopes-school.github.io/schrodingercatbox-JSFEPRESCHOOL2024Q2/shelter/index.html" target="_blank">
+            <img src="./img/project_shelter.png" alt="shelter project" class="projects__image">
+            </a>
+          </div>
+          <div>
+            <a href="https://schrodingercatbox.github.io/vampire-survivors-evolutions/" target="_blank">
+            <img src="./img/project_vampire-survivors.png" alt="vampire survivors project" class="projects__image">
+            </a>
+          </div>
+          </div>
+        </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <a href="https://rs.school/courses/javascript">
+      <img class="footer__rsschoollogo" src="./img/rs_school_js.svg" alt="rsschoollogo">
+    </a>
+    <div>
+      <a href="https://github.com/SchrodingerCatBox">
+        <img class="footer__githublogo" src="./img/github.png" alt="githublogo">
+      </a>
+    <p>&#169;2025</p>
+    </div>
+  </footer>
 </body>
 </html>
