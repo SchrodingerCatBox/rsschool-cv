@@ -173,3 +173,19 @@ code {
   padding: 0 15px;
   color: rgb(255, 255, 255);
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 25px 25px;
+  align-items: center;
+}
+
+.footer__rsschoollogo {
+  width: 100px;
+}
+
+.footer__githublogo {
+  width: 45px;
+}
